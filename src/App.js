@@ -1,12 +1,12 @@
 import './App.css';
+import HomePage from './landing_page/home/HomePage';
 
 function App() {
   return (
     
     <div>
+      <HomePage />
 
-      <h1>Welcome to Zerodha</h1>
-      <p>Experience the best trading platform with us.</p>  
 
     </div>
     
