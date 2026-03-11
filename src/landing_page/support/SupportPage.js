@@ -1,15 +1,18 @@
-import React from 'react';
-import Hero from './Hero';
-import CreateTicket from './CreateTicket';
+import React from "react";
 
-function SupportPage() {
+import Hero from "./Hero";
+import CreateTicket from "./CreateTicket";
+
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+
+function PricingPage() {
   return (
-    <div>
+    <>
       <Hero />
       <CreateTicket />
-    </div>
+    </>
   );
 }
 
-export default SupportPage;
-
+export default PricingPage;
